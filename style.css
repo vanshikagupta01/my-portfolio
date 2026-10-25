@@ -130,41 +130,6 @@ section > h2 {
     transform: translateY(-8px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
 }
-/* ================= MY PROJECTS ================= */
-#projects {
-    background-color: #f5f7fb;
-}
-#projects-container {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    gap: 25px;
-    flex-wrap: wrap;
-}
-.project-card {
-    background-color: white;
-    width: 350px;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    border: 2px solid #dbeafe;
-    transition: 0.3s;
-}
-.project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-}
-.project-card h3 {
-    color: #2563eb;
-    font-size: 22px;
-    margin-bottom: 15px;
-}
-.project-card p {
-    font-size: 16px;
-    line-height: 1.7;
-    margin-bottom: 20px;
-}
 /* ================= CONTACT ================= */
 #contact-box {
     max-width: 600px;
